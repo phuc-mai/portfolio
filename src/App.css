@@ -1,38 +1,138 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --darkwhite: #f8f8f8;
+  --superlightgray: #d7d7d7;
+  --lightgray: #5a5959;
+  --gray: #3f3f3f;
+  --red: #ff0436;
+}
+
+.container {
+  max-width: 133rem !important;
+  margin: 0 auto !important;
+  padding: 0 2.5rem !important;
+}
+
+/* Navbar starts here */
+.navbar {
+  padding: 15px 50px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-bg {
+  background-color: var(--superlightgray);
+}
+
+.navbar_logo a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.navbar__links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.navbar__links a {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--black);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.navbar__links a:hover {
+  color: var(--red);
+}
+
+.mobile-hamb {
+  font-size: 30px;
+  display: none;
+}
+
+.mobile-hamb:hover {
+  color: var(--red);
+}
+
+.mobile-navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  background-color: var(--white);
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.open-nav {
+  left: 0;
+}
+
+.mobile-navbar-close {
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.mobile-navbar-close:hover {
+  color: var(--red);
+}
+
+.mobile-navbar__links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 2.3rem;
+  gap: 3rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mobile-navbar__links li a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 700;
+  transition: all 0.3s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.mobile-navbar__links li a:hover {
+  color: var(--red);
+}
+
+
+
+@media (max-width: 600px) {
+  .navbar__links {
+    display: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .mobile-hamb {
+    display: flex;
   }
 }
