@@ -7,12 +7,13 @@
 body {
   position: relative;
   font-family: "Poppins", sans-serif;
+  color: var(--black);
 }
 
 :root {
-  --black: #000000;
+  --black: #2D2E32;
   --white: #ffffff;
-  --darkwhite: #f8f8f8;
+  --darkwhite: #f9f9f9;
   --superlightgray: #d7d7d7;
   --lightgray: #5a5959;
   --gray: #3f3f3f;
@@ -22,7 +23,7 @@ body {
 .container {
   max-width: 133rem !important;
   margin: 0 auto !important;
-  padding: 0 2.5rem !important;
+  padding: 0 200px !important;
 }
 
 /* Navbar starts here */
@@ -39,7 +40,8 @@ body {
 }
 
 .nav-bg {
-  background-color: var(--superlightgray);
+  background-color: var(--white);
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
 }
 
 .navbar_logo a {
@@ -54,9 +56,9 @@ body {
 }
 
 .navbar__links a {
+  color: var(--black);
   font-size: 18px;
   font-weight: 700;
-  color: var(--black);
   text-decoration: none;
   transition: 0.3s ease;
 }
@@ -117,7 +119,6 @@ body {
 
 .mobile-navbar__links li a {
   text-decoration: none;
-  color: var(--black);
   font-weight: 700;
   transition: all 0.3s;
 }
@@ -126,8 +127,94 @@ body {
   color: var(--red);
 }
 
+/* Hero section starts here */
+.hero {
+  background-color: var(--darkwhite);
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding: 150px 0 50px;
+}
+
+.hero-overall {
+  display: flex;
+  gap: 70px;
+}
+
+.hero-overall h1 {
+  font-size: 55px;
+  margin-bottom: 25px;
+}
+
+.hero-overall h1 img {
+  max-width: 60px;
+  margin-left: 30px;
+}
+
+.hero-overall p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.profile-links i {
+  margin-right: 20px;
+  color: var(--black);
+  font-size: 40px;
+}
+
+/* Tech Skills starts here */
+.tech-stack {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.tech-stack h1 {
+  font-size: 26px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills img {
+  max-width: 70px;
+  background-color: var(--white);
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+}
 
 
+/* About section starts here */
+.about {
+  margin: 150px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+.about img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.about-text > * {
+  margin-bottom: 10px;
+}
+
+.about h3 {
+  color: var(--red);
+}
+
+.about p {
+  color: var(--lightgray)
+}
 @media (max-width: 600px) {
   .navbar__links {
     display: none;
