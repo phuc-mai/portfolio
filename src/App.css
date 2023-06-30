@@ -11,7 +11,7 @@ body {
 }
 
 :root {
-  --black: #2D2E32;
+  --black: #2d2e32;
   --white: #ffffff;
   --darkwhite: #f9f9f9;
   --superlightgray: #d7d7d7;
@@ -23,7 +23,7 @@ body {
 .container {
   max-width: 133rem !important;
   margin: 0 auto !important;
-  padding: 0 200px !important;
+  padding: 0 200px;
 }
 
 /* Navbar starts here */
@@ -41,7 +41,7 @@ body {
 
 .nav-bg {
   background-color: var(--white);
-  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
 }
 
 .navbar_logo a {
@@ -145,7 +145,7 @@ body {
 }
 
 .hero-overall h1 {
-  font-size: 55px;
+  font-size: 50px;
   margin-bottom: 25px;
 }
 
@@ -179,6 +179,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
 
 .skills img {
@@ -186,9 +187,8 @@ body {
   background-color: var(--white);
   border-radius: 50%;
   padding: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
 }
-
 
 /* About section starts here */
 .about {
@@ -204,16 +204,187 @@ body {
   border-radius: 25px;
 }
 
-.about-text > * {
-  margin-bottom: 10px;
-}
-
 .about h3 {
   color: var(--red);
+  margin-bottom: 15px;
 }
 
 .about p {
-  color: var(--lightgray)
+  color: var(--lightgray);
+  margin-top: 23px;
+}
+
+/* Portfolio section starts here */
+.portfolio {
+  background-color: var(--darkwhite);
+  padding: 100px 0;
+}
+
+.portfolio h3 {
+  color: var(--red);
+  margin-bottom: 15px;
+}
+
+.all-projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.project,
+.project-reverse {
+  display: grid;
+  gap: 50px;
+  padding: 20px 15px;
+  height: 450px;
+  background-color: var(--white);
+}
+
+.project {
+  grid-template-columns: 1.3fr 1fr;
+}
+
+.project-reverse {
+  grid-template-columns: 1fr 1.3fr;
+}
+
+.project,
+.project-reverse,
+.project-img {
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-img {
+  overflow: hidden;
+}
+
+.project img,
+.project-reverse img {
+  width: 100%;
+  transition: 10s ease-in-out;
+}
+
+.project img:hover,
+.project-reverse img:hover {
+  transform: translateY(-86%);
+}
+
+.project-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-text h3 {
+  font-size: 20px;
+  color: var(--red);
+  margin-bottom: 15px;
+}
+
+.project-desc {
+  font-weight: 600;
+  color: var(--lightgray);
+  text-align: center;
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+.project-stack {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.project-stack > * {
+  background-color: var(--white);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.project-links {
+  display: flex;
+  gap: 60px;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.project-links a:hover {
+  color: var(--red);
+}
+
+.project-links i {
+  margin-left: 10px;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    padding: 0 150px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero-overall {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-overall img {
+    max-width: 400px;
+  }
+  .hero-overall p {
+    max-width: 600px;
+  }
+  .tech-stack {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about img {
+    max-width: 400px;
+  }
+  .about-text {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 900px) {
+  .project,
+  .project-reverse {
+    grid-template-columns: 1fr;
+    height: 800px;
+  }
+  .project-reverse div:nth-of-type(1) {
+    order: 2;
+  }
 }
 @media (max-width: 600px) {
   .navbar__links {
@@ -221,5 +392,8 @@ body {
   }
   .mobile-hamb {
     display: flex;
+  }
+  .container {
+    padding: 0 30px;
   }
 }
