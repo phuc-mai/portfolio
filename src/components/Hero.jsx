@@ -5,7 +5,7 @@ import TechStack from "./TechStack";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <div className="container">
         <div className="hero-main">
           <div className="hero-overall">
@@ -21,12 +21,12 @@ const Hero = () => {
                 based in Toronto, Canada
               </p>
               <div className="profile-links">
-                <Link to="">
+                <a href="">
                   <i class="fa-brands fa-github"></i>
-                </Link>
-                <Link to="https://github.com/phuc-mai">
+                </a>
+                <a href="https://github.com/phuc-mai">
                   <i class="fa-brands fa-linkedin"></i>
-                </Link>
+                </a>
               </div>
             </div>
             <img src="assets/profile.png" alt="profile" />

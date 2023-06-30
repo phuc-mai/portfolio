@@ -1,3 +1,7 @@
+html {
+  scroll-behavior:smooth
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -163,6 +167,11 @@ body {
   margin-right: 20px;
   color: var(--black);
   font-size: 40px;
+  transition: 0.3s ease;
+}
+
+.profile-links i:hover {
+  color: var(--red);
 }
 
 /* Tech Skills starts here */
@@ -192,7 +201,7 @@ body {
 
 /* About section starts here */
 .about {
-  margin: 150px 0;
+  padding: 100px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 70px;
@@ -228,7 +237,7 @@ body {
 .all-projects {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
+  gap: 60px;
   margin-top: 60px;
 }
 
@@ -253,7 +262,7 @@ body {
 .project-reverse,
 .project-img {
   border-radius: 25px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
 }
 
 .project-img {
@@ -268,7 +277,7 @@ body {
 
 .project img:hover,
 .project-reverse img:hover {
-  transform: translateY(-86%);
+  transform: translateY(-83%);
 }
 
 .project-text {
@@ -294,6 +303,8 @@ body {
 
 .project-stack {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   font-weight: 600;
   margin-bottom: 50px;
@@ -324,6 +335,78 @@ body {
 
 .project-links i {
   margin-left: 10px;
+}
+
+/* Contact section starts here */
+.contact {
+  padding: 50px 0;
+}
+
+.contact h1 {
+  font-size: 30px;
+  color: var(--red);
+  margin-bottom: 15px;
+}
+
+.contact p {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--lightgray);
+}
+
+.contact i {
+  font-size: 30px;
+  margin-left: 20px;
+  color: darkgoldenrod;
+}
+
+.contact-info {
+  display: flex;
+  gap: 100px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.contact-details {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.contact-details img {
+  max-width: 60px;
+  padding: 10px;
+  background-color: var(--white);
+  border-radius: 50%;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.contact-details a:hover {
+  color: var(--red);
+}
+
+/* Footer section starts here */
+.footer {
+  background-color: var(--lightgray);
+  padding: 50px 0;
+  color: var(--white);
+}
+
+.footer .profile-links i {
+  color: var(--white);
+  margin-top: 30px;
+  transition: 0.3s ease;
+}
+
+.footer .profile-links i:hover {
+  color: var(--red);
 }
 
 @media (max-width: 1300px) {
@@ -385,6 +468,10 @@ body {
   .project-reverse div:nth-of-type(1) {
     order: 2;
   }
+  .contact-info {
+    flex-direction: column;
+    gap: 20px
+  }
 }
 @media (max-width: 600px) {
   .navbar__links {
@@ -397,3 +484,16 @@ body {
     padding: 0 30px;
   }
 }
+
+@media (max-width: 500px) {
+  .contact {
+    text-align: center;
+  }
+  .contact-details {
+    flex-direction: column;
+  }
+  .footer {
+    text-align: center;
+  }
+}
+

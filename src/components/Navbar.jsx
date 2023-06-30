@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   // Set Navbar background when scrolling down
@@ -25,23 +24,23 @@ const Navbar = () => {
         {/* Desktop */}
         <div className={`navbar ${navBg}`}>
           <div className="navbar_logo">
-            <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+            <a href="/" onClick={() => window.scrollTo(0, 0)}>
               <h1>Phuc Mai</h1>
-            </Link>
+            </a>
           </div>
 
           <ul className="navbar__links">
             <li>
-              <Link to="/">Home</Link>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <Link to="#about">About</Link>
+              <a href="#about">About</a>
             </li>
             <li>
-              <Link to="#projects">Projects</Link>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <Link to="#contact">Contact</Link>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
 
@@ -57,24 +56,24 @@ const Navbar = () => {
           </div>
           <ul className="mobile-navbar__links">
             <li>
-              <Link onClick={openNav} to="/">
+              <a onClick={openNav} href="/">
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link onClick={openNav} to="#about">
+              <a onClick={openNav} href="#about">
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link onClick={openNav} to="#projects">
+              <a onClick={openNav} href="#projects">
                 Projects
-              </Link>
+              </a>
             </li>
             <li>
-              <Link onClick={openNav} to="#contact">
+              <a onClick={openNav} href="#contact">
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

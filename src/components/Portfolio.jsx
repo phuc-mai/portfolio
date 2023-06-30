@@ -2,18 +2,15 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="projects">
       <div className="container">
         <h3>PORTFOLIO</h3>
         <h1>Each project is a unique piece of development</h1>
         <div className="all-projects">
           <div className="project">
             <div className="project-img">
-              <a href="https://motorbike-rental.netlify.app/">
-                <img
-                  src="assets/Motorbike Rental.png"
-                  alt="motor-rental"
-                />
+              <a href="https://motorbike-rental.netlify.app/" target="_blank">
+                <img src="assets/Motorbike Rental.png" alt="motor-rental" />
               </a>
             </div>
             <div className="project-text">
@@ -29,11 +26,14 @@ const Portfolio = () => {
                 <p>Javascript</p>
               </div>
               <div className="project-links">
-                <a href="https://github.com/phuc-mai/Motorbike-Rental">
+                <a
+                  href="https://github.com/phuc-mai/Motorbike-Rental"
+                  target="_blank"
+                >
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://motorbike-rental.netlify.app/">
+                <a href="https://motorbike-rental.netlify.app/" target="_blank">
                   Live Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
@@ -55,19 +55,101 @@ const Portfolio = () => {
                 <p>Javascript</p>
               </div>
               <div className="project-links">
-                <a href="https://github.com/phuc-mai/Motorbike-Rental">
+                <a href="https://github.com/phuc-mai/fitfinity" target="_blank">
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://motorbike-rental.netlify.app/">
+                <a
+                  href="https://fitfinity-gym-center.netlify.app/"
+                  target="_blank"
+                >
                   Live Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
             </div>
             <div className="project-img">
-              <a href="https://fitfinity-gym-center.netlify.app/">
+              <a
+                href="https://fitfinity-gym-center.netlify.app/"
+                target="_blank"
+              >
                 <img src="assets/Fitfinity.png" alt="fitfinity-gym-center" />
+              </a>
+            </div>
+          </div>
+
+          <div className="project">
+            <div className="project-img">
+              <a href="https://phucmaicryptoverse.netlify.app/" target="_blank">
+                <img src="assets/Cryptoverse.png" alt="cryptoverse" />
+              </a>
+            </div>
+            <div className="project-text">
+              <h3>CRYPTOVERSE</h3>
+              <p className="project-desc">
+                Cryptocurrencies Website with in-depth data about all coins,
+                crypto markets and popular news. Fetch data from 2 different
+                sources using Rapid Api. Create charts of market prices in
+                real-time using Chart.js
+              </p>
+              <div className="project-stack">
+                <p>React</p>
+                <p>Ant Design</p>
+                <p>RapidApi</p>
+                <p>Javascript</p>
+              </div>
+              <div className="project-links">
+                <a
+                  href="https://github.com/phuc-mai/cryptoverse"
+                  target="_blank"
+                >
+                  Code
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a
+                  href="https://phucmaicryptoverse.netlify.app/"
+                  target="_blank"
+                >
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-reverse">
+            <div className="project-text">
+              <h3>YOUTUBE MEDIA</h3>
+              <p className="project-desc">
+                YouTube Clone to play media from RapidAPI with video section,
+                custom categories, responsive channel & video cards. Allow users
+                to play the video straight from the app and see related videos
+                on the right side
+              </p>
+              <div className="project-stack">
+                <p>React</p>
+                <p>Material UI</p>
+                <p>Javascript</p>
+                <p>RapidApi</p>
+                <p>Redux</p>
+              </div>
+              <div className="project-links">
+                <a
+                  href="https://github.com/phuc-mai/youtube_clone"
+                  target="_blank"
+                >
+                  Code
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://phuc-mai-media.netlify.app/" target="_blank">
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <div className="project-img">
+              <a href="https://phuc-mai-media.netlify.app/" target="_blank">
+                <img src="assets/Youtube.jpg" alt="fitfinity-gym-center" />
               </a>
             </div>
           </div>
