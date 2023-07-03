@@ -16,8 +16,8 @@ const Portfolio = () => {
             <div className="project-text">
               <h3>MOTORBIKE RENTAL</h3>
               <p className="project-desc">
-                A car rental website is an online platform that allows users to
-                rent cars for personal or business use. The website provides an
+                A motorbike rental website is an online platform that allows users to
+                rent motorbikes for personal or business use. The website provides an
                 interface for searching, comparing, and reserving cars.
               </p>
               <div className="project-stack">
@@ -149,7 +149,7 @@ const Portfolio = () => {
             </div>
             <div className="project-img">
               <a href="https://phuc-mai-media.netlify.app/" target="_blank">
-                <img src="assets/Youtube.jpg" alt="fitfinity-gym-center" />
+                <img src="assets/Youtube.jpg" alt="youtube" />
               </a>
             </div>
           </div>
