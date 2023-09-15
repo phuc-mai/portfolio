@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 import TechStack from "./TechStack";
 
 const Hero = () => {
@@ -21,10 +19,10 @@ const Hero = () => {
                 based in Toronto, Canada
               </p>
               <div className="profile-links">
-                <a href="">
+                <a href="https://github.com/phuc-mai">
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://github.com/phuc-mai">
+                <a href="https://www.linkedin.com/in/phuc-mai-1309/">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
               </div>
