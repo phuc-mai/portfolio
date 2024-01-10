@@ -201,7 +201,7 @@ body {
 
 /* About section starts here */
 .about {
-  padding: 100px 0;
+  padding: 50px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 70px;
@@ -213,20 +213,23 @@ body {
   border-radius: 25px;
 }
 
-.about h3 {
+.about h2 {
   color: var(--red);
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.about h3 {
+  margin: 10px 0 5px;
 }
 
 .about p {
   color: var(--lightgray);
-  margin-top: 23px;
 }
 
 /* Portfolio section starts here */
 .portfolio {
   background-color: var(--darkwhite);
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .portfolio h3 {
@@ -288,6 +291,7 @@ body {
 }
 
 .project-text h3 {
+  text-align: center;
   font-size: 20px;
   color: var(--red);
   margin-bottom: 15px;
@@ -462,17 +466,19 @@ body {
 @media (max-width: 900px) {
   .project,
   .project-reverse {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     height: 800px;
   }
-  .project-reverse div:nth-of-type(1) {
-    order: 2;
+  .project-reverse {
+    flex-direction: column-reverse;
   }
   .contact-info {
     flex-direction: column;
     gap: 20px
   }
 }
+
 @media (max-width: 600px) {
   .navbar__links {
     display: none;

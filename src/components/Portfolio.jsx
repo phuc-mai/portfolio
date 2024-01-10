@@ -6,7 +6,159 @@ const Portfolio = () => {
       <div className="container">
         <h3>PORTFOLIO</h3>
         <h1>Each project is a unique piece of development</h1>
+
         <div className="all-projects">
+          <div className="project-reverse">
+            <div className="project-text">
+              <h3>ARTFULIZE - ART MARTKETPLACE </h3>
+              <p className="project-desc">
+                An online art marketplace that allows users to find unique
+                arts/designs, save to wishlist, add to cart, checkout with
+                Stripe payment, and become a seller for their arts.
+              </p>
+              <div className="project-stack">
+                <p>Next JS</p>
+                <p>Next Auth</p>
+                <p>React</p>
+                <p>MongoDB</p>
+                <p>SCSS</p>
+                <p>Stripe</p>
+              </div>
+              <div className="project-links">
+                <a
+                  href="https://github.com/phuc-mai/artfulize"
+                  target="_blank"
+                >
+                  Code
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://artfulize.phucmai.com/" target="_blank">
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <div className="project-img">
+              <a href="https://artfulize.phucmai.com/" target="_blank">
+                <img src="assets/Artfulize.png" alt="art-marketplace" />
+              </a>
+            </div>
+          </div>
+
+          <div className="project">
+            <div className="project-img">
+              <a href="https://zingzone.vercel.app/" target="_blank">
+                <img src="assets/zingzone.png" alt="social media app" />
+              </a>
+            </div>
+            <div className="project-text">
+              <h3>ZING ZONE - SOCIAL MEDIA APP</h3>
+              <p className="project-desc">
+                Zing Zone allows user to create account, publish or edit posts
+                with photo, remove posts, like or dislike other posts, save or
+                unsave posts, search for users and posts, follow or unfollow
+                people, view all Feed posts and other personal pages.
+              </p>
+              <div className="project-stack">
+                <p>Next JS</p>
+                <p>React</p>
+                <p>Clerk Auth</p>
+                <p>MongoDB</p>
+                <p>Tailwind CSS</p>
+                <p>Material UI</p>
+              </div>
+              <div className="project-links">
+                <a href="https://github.com/phuc-mai/zingzone" target="_blank">
+                  Code
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://zingzone.vercel.app/" target="_blank">
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-reverse">
+            <div className="project-text">
+              <h3>HOME HEAVEN - PROPERTY RENTAL APP</h3>
+              <p className="project-desc">
+                An online marketplace that allows users to find unique
+                accommodations for their trips, save to wishlist, book
+                reservations, and become a host for their properties.
+              </p>
+              <div className="project-stack">
+                <p>React</p>
+                <p>Redux</p>
+                <p>Node</p>
+                <p>Express</p>
+                <p>MongoDB</p>
+                <p>JWT</p>
+                <p>SCSS</p>
+                <p>Material UI</p>
+              </div>
+              <div className="project-links">
+                <a
+                  href="https://github.com/phuc-mai/Home-Heaven"
+                  target="_blank"
+                >
+                  Code
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://homeheaven.phucmai.com/" target="_blank">
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <div className="project-img">
+              <a href="https://homeheaven.phucmai.com/" target="_blank">
+                <img src="assets/Home Heaven.png" alt="property-app" />
+              </a>
+            </div>
+          </div>
+
+          <div className="project">
+            <div className="project-img">
+              <a href="https://clicknship.phucmai.com/" target="_blank">
+                <img src="assets/ClicknShip.png" alt="e-commerce" />
+              </a>
+            </div>
+            <div className="project-text">
+              <h3>CLICK N' SHIP ECOMMERCE</h3>
+              <p className="project-desc">
+                An Ecommerce store allows user to create account, find
+                product(s) by filtering and sorting with different categories,
+                colors, sizes, prices, have their own Wishlist, modify products
+                in cart and checkout with Stripe payment.
+              </p>
+              <div className="project-stack">
+                <p>React</p>
+                <p>Redux</p>
+                <p>Node</p>
+                <p>MongoDB</p>
+                <p>JWT</p>
+                <p>Stripe</p>
+                <p>SASS</p>
+                <p>Material UI</p>
+              </div>
+              <div className="project-links">
+                <a
+                  href="https://github.com/phuc-mai/Click_N_Ship"
+                  target="_blank"
+                >
+                  Code
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://clicknship.phucmai.com/" target="_blank">
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className="project-reverse">
             <div className="project-text">
               <h3>SOCIALIFE - SOCIAL MEDIA APP</h3>
@@ -22,7 +174,6 @@ const Portfolio = () => {
                 <p>Node</p>
                 <p>MongoDB</p>
                 <p>JWT</p>
-                <p>Stripe</p>
                 <p>CSS</p>
                 <p>Material UI</p>
               </div>
@@ -38,10 +189,7 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="project-img">
-              <a
-                href="https://socialife.phucmai.com/"
-                target="_blank"
-              >
+              <a href="https://socialife.phucmai.com/" target="_blank">
                 <img src="assets/Socialife.png" alt="social-media-app" />
               </a>
             </div>
@@ -49,7 +197,7 @@ const Portfolio = () => {
 
           <div className="project">
             <div className="project-img">
-              <a href="https://motorbike-rental.netlify.app/" target="_blank">
+              <a href="https://motorbikerental.phucmai.com/" target="_blank">
                 <img src="assets/Motorbike Rental.png" alt="motor-rental" />
               </a>
             </div>
@@ -74,7 +222,7 @@ const Portfolio = () => {
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://motorbike-rental.netlify.app/" target="_blank">
+                <a href="https://motorbikerental.phucmai.com/" target="_blank">
                   Live Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
@@ -100,26 +248,21 @@ const Portfolio = () => {
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a
-                  href="https://fitfinity-gym-center.netlify.app/"
-                  target="_blank"
-                >
+                <a href="https://fitfinity.phucmai.com/" target="_blank">
                   Live Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
             </div>
+
             <div className="project-img">
-              <a
-                href="https://fitfinity-gym-center.netlify.app/"
-                target="_blank"
-              >
+              <a href="https://fitfinity.phucmai.com/" target="_blank">
                 <img src="assets/Fitfinity.png" alt="fitfinity-gym-center" />
               </a>
             </div>
           </div>
 
-          <div className="project">
+          {/* <div className="project">
             <div className="project-img">
               <a href="https://phucmaicryptoverse.netlify.app/" target="_blank">
                 <img src="assets/Cryptoverse.png" alt="cryptoverse" />
@@ -156,9 +299,9 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="project-reverse">
+          {/* <div className="project-reverse">
             <div className="project-text">
               <h3>YOUTUBE MEDIA</h3>
               <p className="project-desc">
@@ -193,7 +336,7 @@ const Portfolio = () => {
                 <img src="assets/Youtube.jpg" alt="youtube" />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

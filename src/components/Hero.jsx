@@ -9,14 +9,13 @@ const Hero = () => {
           <div className="hero-overall">
             <div className="hero-text">
               <h1>
-                Front-End React <br /> Developer{" "}
+              Full-stack / Web <br /> Developer{" "}
                 <span>
                   <img src="assets/wave hand.png" />
                 </span>
               </h1>
               <p>
-                Hi, I'm Phuc Mai (Maria). A passionate Front-end React Developer
-                based in Toronto, Canada
+                Hi, I'm Phuc Mai (Maria). A passionate Full-stack Web Developer and a Youtuber love sharing coding with "Code With Phuc" channel
               </p>
               <div className="profile-links">
                 <a href="https://github.com/phuc-mai">

@@ -4,19 +4,31 @@ const About = () => {
   return (
     <div className="container">
       <section className="about" id="about">
-        <img src="assets/about.jpg"/>
+        <img src="assets/about.jpg" alt="profile"/>
         <div className="about-text">
-          <h3>ABOUT ME</h3>
-          <h1>A dedicated Front-end Developer based in Toronto, Canada </h1>
+          <h2>ABOUT ME</h2> 
+
+          <h3>Front-end</h3>
           <p>
-            As a Junior Front-End Developer, I possess an impressive arsenal of
-            skills in HTML, CSS, JavaScript, React, NextJS, Node, Material UI,
-            and Python. I'm excellent in designing and maintaining responsive
-            websites that offer a smooth user experience. My expertise lies in
-            crafting dynamic, engaging interfaces through writing clean and
-            optimized code and utilizing cutting-edge development tools and
-            techniques. I am also a team player who thrives in collaborating
-            with cross-functional teams to produce outstanding web applications.
+            Have hands-on experience with modern front-end technologies such
+            as HTML, CSS, JavaScript, Material UI, Tailwind, and frameworks like ReactJS.
+          </p>
+
+          <h3>Back-end</h3>
+          <p>
+            Have been working on the server-side, handling databases, and
+            building server logic using technologies like Next.js, Node.js and Express.
+            Comfortable with RESTful API development and can work with
+            databases like MongoDB and SQL.
+          </p>
+
+          <h3>Full-Stack Proficiency</h3>
+          <p>
+            The goal is to bridge the gap between front-end and back-end
+            development, ensuring seamless data flow and a delightful user
+            experience. Being excited about the challenges of full-stack
+            development and strive to create robust, efficient, and scalable
+            applications.
           </p>
         </div>
       </section>
