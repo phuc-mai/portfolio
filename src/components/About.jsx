@@ -11,13 +11,13 @@ const About = () => {
           <h3>Front-end</h3>
           <p>
             Have hands-on experience with modern front-end technologies such
-            as HTML, CSS, JavaScript, Material UI, Tailwind, and frameworks like ReactJS.
+            as HTML, CSS, JavaScript, Material UI, Tailwind, and frameworks like ReactJS, NextJS, Typescript.
           </p>
 
           <h3>Back-end</h3>
           <p>
             Have been working on the server-side, handling databases, and
-            building server logic using technologies like Next.js, Node.js and Express.
+            building server logic using technologies like Next.js, Node.js and Express.js.
             Comfortable with RESTful API development and can work with
             databases like MongoDB and SQL.
           </p>

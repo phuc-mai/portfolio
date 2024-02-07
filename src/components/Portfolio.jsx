@@ -10,6 +10,74 @@ const Portfolio = () => {
         <div className="all-projects">
           <div className="project-reverse">
             <div className="project-text">
+              <h3>SKY CHAT - CHAT APP</h3>
+              <p className="project-desc">
+                Sky chat allows user to create account, and search contacts and
+                chat with other people in person or group in real-time
+                messaging.
+              </p>
+              <div className="project-stack">
+                <p>Next JS</p>
+                <p>React</p>
+                <p>Next Auth</p>
+                <p>MongoDB</p>
+                <p>Tailwind CSS</p>
+                <p>Pusher</p>
+              </div>
+              <div className="project-links">
+                <a href="https://github.com/phuc-mai/skychat" target="_blank">
+                  Code
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://skychat-nine.vercel.app/" target="_blank">
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            <div className="project-img">
+              <a href="https://skychat-nine.vercel.app/" target="_blank">
+                <img src="assets/skychat.png" alt="social media app" />
+              </a>
+            </div>
+          </div>
+
+          <div className="project">
+            <div className="project-img">
+              <a href="https://zingzone.vercel.app/" target="_blank">
+                <img src="assets/filmhub.png" alt="social media app" />
+              </a>
+            </div>
+            <div className="project-text">
+              <h3>FILM HUB - MOVIE WEBSITE</h3>
+              <p className="project-desc">
+                Film Hub allows user to create account, watch or search trending
+                movies with various genres. User can see all detailed
+                information of movies and add to their favorite list.
+              </p>
+              <div className="project-stack">
+                <p>Next JS</p>
+                <p>React</p>
+                <p>Next Auth</p>
+                <p>MongoDB</p>
+                <p>Tailwind CSS</p>
+                <p>RESTful API</p>
+              </div>
+              <div className="project-links">
+                <a href="https://github.com/phuc-mai/filmhub" target="_blank">
+                  Code
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://filmhub.phucmai.com/" target="_blank">
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-reverse">
+            <div className="project-text">
               <h3>ARTFULIZE - ART MARTKETPLACE </h3>
               <p className="project-desc">
                 An online art marketplace that allows users to find unique
@@ -25,10 +93,7 @@ const Portfolio = () => {
                 <p>Stripe</p>
               </div>
               <div className="project-links">
-                <a
-                  href="https://github.com/phuc-mai/artfulize"
-                  target="_blank"
-                >
+                <a href="https://github.com/phuc-mai/artfulize" target="_blank">
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
@@ -115,82 +180,6 @@ const Portfolio = () => {
             <div className="project-img">
               <a href="https://homeheaven.phucmai.com/" target="_blank">
                 <img src="assets/Home Heaven.png" alt="property-app" />
-              </a>
-            </div>
-          </div>
-
-          <div className="project">
-            <div className="project-img">
-              <a href="https://clicknship.phucmai.com/" target="_blank">
-                <img src="assets/ClicknShip.png" alt="e-commerce" />
-              </a>
-            </div>
-            <div className="project-text">
-              <h3>CLICK N' SHIP ECOMMERCE</h3>
-              <p className="project-desc">
-                An Ecommerce store allows user to create account, find
-                product(s) by filtering and sorting with different categories,
-                colors, sizes, prices, have their own Wishlist, modify products
-                in cart and checkout with Stripe payment.
-              </p>
-              <div className="project-stack">
-                <p>React</p>
-                <p>Redux</p>
-                <p>Node</p>
-                <p>MongoDB</p>
-                <p>JWT</p>
-                <p>Stripe</p>
-                <p>SASS</p>
-                <p>Material UI</p>
-              </div>
-              <div className="project-links">
-                <a
-                  href="https://github.com/phuc-mai/Click_N_Ship"
-                  target="_blank"
-                >
-                  Code
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="https://clicknship.phucmai.com/" target="_blank">
-                  Live Demo
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="project-reverse">
-            <div className="project-text">
-              <h3>SOCIALIFE - SOCIAL MEDIA APP</h3>
-              <p className="project-desc">
-                An online platform to facilitate social networking and
-                communication. Users create personal profiles to make post with
-                image, like or dislike other posts, view comments, add or remove
-                friends, view all Feed posts and other personal pages
-              </p>
-              <div className="project-stack">
-                <p>React</p>
-                <p>Redux</p>
-                <p>Node</p>
-                <p>MongoDB</p>
-                <p>JWT</p>
-                <p>CSS</p>
-                <p>Material UI</p>
-              </div>
-              <div className="project-links">
-                <a href="https://github.com/phuc-mai/Socialife" target="_blank">
-                  Code
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="https://socialife.phucmai.com/" target="_blank">
-                  Live Demo
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-            <div className="project-img">
-              <a href="https://socialife.phucmai.com/" target="_blank">
-                <img src="assets/Socialife.png" alt="social-media-app" />
               </a>
             </div>
           </div>

@@ -7,6 +7,7 @@ const TechStack = () => {
       <div className="skills">
         <img src="assets/nextjs.png" alt="skills" />
         <img src="assets/react.png" alt="skills" />
+        <img src="assets/typescript.png" alt="skills" />
         <img src="assets/redux.png" alt="skills" />
         <img src="assets/mongodb.png" alt="skills" />
         <img src="assets/node.png" alt="skills" />
