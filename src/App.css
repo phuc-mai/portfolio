@@ -325,10 +325,16 @@ body {
   gap: 60px;
 }
 
+.multi-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .project-links a {
   text-decoration: none;
   color: var(--black);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   transition: 0.3s ease;
 }
@@ -338,7 +344,7 @@ body {
 }
 
 .project-links i {
-  margin-left: 10px;
+  margin-left: 7px;
 }
 
 /* Contact section starts here */

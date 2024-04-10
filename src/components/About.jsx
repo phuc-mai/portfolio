@@ -19,7 +19,7 @@ const About = () => {
             Have been working on the server-side, handling databases, and
             building server logic using technologies like Next.js, Node.js and Express.js.
             Comfortable with RESTful API development and can work with
-            databases like MongoDB and SQL.
+            databases like MongoDB and MySQL.
           </p>
 
           <h3>Full-Stack Proficiency</h3>

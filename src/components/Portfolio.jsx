@@ -8,6 +8,55 @@ const Portfolio = () => {
         <h1>Each project is a unique piece of development</h1>
 
         <div className="all-projects">
+          <div className="project">
+            <div className="project-img">
+              <a
+                href="https://www.youtube.com/watch?v=SR4dFgdKUyI&t=7s"
+                target="_blank"
+              >
+                <img
+                  src="assets/ecommerce_dashboard.png"
+                  alt="ecommerce and dashboard"
+                />
+              </a>
+            </div>
+            <div className="project-text">
+              <h3>ECOMMERCE - ADMIN DASHBOARD</h3>
+              <p className="project-desc">
+                Ecommerce store allows users to create account, search, add to wishlist,
+                add to cart, checkout with Stripe, and view order
+                history. Dashboard allows admins to create & manage products,
+                track orders, and view sales report.
+              </p>
+              <div className="project-stack">
+                <p>Next JS</p>
+                <p>React</p>
+                <p>Clerk Auth</p>
+                <p>MongoDB</p>
+                <p>Stripe</p>
+                <p>Tailwind CSS</p>
+                <p>RESTful API</p>
+              </div>
+              <div className="project-links multi-links">
+                <a href="https://github.com/phuc-mai/borcella_admin" target="_blank">
+                  Code Admin
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://github.com/phuc-mai/borcella_store" target="_blank">
+                  Code Store
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a
+                  href="https://www.youtube.com/watch?v=SR4dFgdKUyI&t=7s"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className="project-reverse">
             <div className="project-text">
               <h3>SKY CHAT - CHAT APP</h3>
@@ -29,23 +78,32 @@ const Portfolio = () => {
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://skychat-nine.vercel.app/" target="_blank">
-                  Live Demo
+                <a
+                  href="https://www.youtube.com/watch?v=2Zv8YYq1ymo&t=2s"
+                  target="_blank"
+                >
+                  Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
             </div>
             <div className="project-img">
-              <a href="https://skychat-nine.vercel.app/" target="_blank">
-                <img src="assets/skychat.png" alt="social media app" />
+              <a
+                href="https://www.youtube.com/watch?v=2Zv8YYq1ymo&t=2s"
+                target="_blank"
+              >
+                <img src="assets/skychat.png" alt="chat app" />
               </a>
             </div>
           </div>
 
           <div className="project">
             <div className="project-img">
-              <a href="https://zingzone.vercel.app/" target="_blank">
-                <img src="assets/filmhub.png" alt="social media app" />
+              <a
+                href="https://www.youtube.com/watch?v=r8AWmr1K4hU&t=4928s"
+                target="_blank"
+              >
+                <img src="assets/filmhub.png" alt="movie website" />
               </a>
             </div>
             <div className="project-text">
@@ -68,8 +126,11 @@ const Portfolio = () => {
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://filmhub.phucmai.com/" target="_blank">
-                  Live Demo
+                <a
+                  href="https://www.youtube.com/watch?v=r8AWmr1K4hU&t=4928s"
+                  target="_blank"
+                >
+                  Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
@@ -97,14 +158,20 @@ const Portfolio = () => {
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://artfulize.phucmai.com/" target="_blank">
-                  Live Demo
+                <a
+                  href="https://www.youtube.com/watch?v=PbGL_VhyZ0Q&t=5275s"
+                  target="_blank"
+                >
+                  Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
             </div>
             <div className="project-img">
-              <a href="https://artfulize.phucmai.com/" target="_blank">
+              <a
+                href="https://www.youtube.com/watch?v=PbGL_VhyZ0Q&t=5275s"
+                target="_blank"
+              >
                 <img src="assets/Artfulize.png" alt="art-marketplace" />
               </a>
             </div>
@@ -112,7 +179,10 @@ const Portfolio = () => {
 
           <div className="project">
             <div className="project-img">
-              <a href="https://zingzone.vercel.app/" target="_blank">
+              <a
+                href="https://www.youtube.com/watch?v=yXSdYD_JHN4&t=9485s"
+                target="_blank"
+              >
                 <img src="assets/zingzone.png" alt="social media app" />
               </a>
             </div>
@@ -137,8 +207,11 @@ const Portfolio = () => {
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://zingzone.vercel.app/" target="_blank">
-                  Live Demo
+                <a
+                  href="https://www.youtube.com/watch?v=yXSdYD_JHN4&t=9485s"
+                  target="_blank"
+                >
+                  Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
@@ -171,14 +244,20 @@ const Portfolio = () => {
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://homeheaven.phucmai.com/" target="_blank">
-                  Live Demo
+                <a
+                  href="https://www.youtube.com/watch?v=BLDFsvWf8zY&t=13828s"
+                  target="_blank"
+                >
+                  Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
             </div>
             <div className="project-img">
-              <a href="https://homeheaven.phucmai.com/" target="_blank">
+              <a
+                href="https://www.youtube.com/watch?v=BLDFsvWf8zY&t=13828s"
+                target="_blank"
+              >
                 <img src="assets/Home Heaven.png" alt="property-app" />
               </a>
             </div>
@@ -212,7 +291,7 @@ const Portfolio = () => {
                   <i class="fa-brands fa-github"></i>
                 </a>
                 <a href="https://motorbikerental.phucmai.com/" target="_blank">
-                  Live Demo
+                  Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
@@ -237,95 +316,19 @@ const Portfolio = () => {
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://fitfinity.phucmai.com/" target="_blank">
-                  Live Demo
+                <a href="https://fitfinity-five.vercel.app/" target="_blank">
+                  Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
             </div>
 
             <div className="project-img">
-              <a href="https://fitfinity.phucmai.com/" target="_blank">
+              <a href="https://fitfinity-five.vercel.app/" target="_blank">
                 <img src="assets/Fitfinity.png" alt="fitfinity-gym-center" />
               </a>
             </div>
           </div>
-
-          {/* <div className="project">
-            <div className="project-img">
-              <a href="https://phucmaicryptoverse.netlify.app/" target="_blank">
-                <img src="assets/Cryptoverse.png" alt="cryptoverse" />
-              </a>
-            </div>
-            <div className="project-text">
-              <h3>CRYPTOVERSE</h3>
-              <p className="project-desc">
-                Cryptocurrencies Website with in-depth data about all coins,
-                crypto markets and popular news. Fetch data from 2 different
-                sources using Rapid Api. Create charts of market prices in
-                real-time using Chart.js
-              </p>
-              <div className="project-stack">
-                <p>React</p>
-                <p>Ant Design</p>
-                <p>RapidApi</p>
-                <p>Javascript</p>
-              </div>
-              <div className="project-links">
-                <a
-                  href="https://github.com/phuc-mai/cryptoverse"
-                  target="_blank"
-                >
-                  Code
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a
-                  href="https://phucmaicryptoverse.netlify.app/"
-                  target="_blank"
-                >
-                  Live Demo
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div className="project-reverse">
-            <div className="project-text">
-              <h3>YOUTUBE MEDIA</h3>
-              <p className="project-desc">
-                YouTube Clone to play media from RapidAPI with video section,
-                custom categories, responsive channel & video cards. Allow users
-                to play the video straight from the app and see related videos
-                on the right side
-              </p>
-              <div className="project-stack">
-                <p>React</p>
-                <p>Material UI</p>
-                <p>Javascript</p>
-                <p>RapidApi</p>
-                <p>Redux</p>
-              </div>
-              <div className="project-links">
-                <a
-                  href="https://github.com/phuc-mai/youtube_clone"
-                  target="_blank"
-                >
-                  Code
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="https://phuc-mai-media.netlify.app/" target="_blank">
-                  Live Demo
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </div>
-            </div>
-            <div className="project-img">
-              <a href="https://phuc-mai-media.netlify.app/" target="_blank">
-                <img src="assets/Youtube.jpg" alt="youtube" />
-              </a>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>
