@@ -13,6 +13,7 @@ const Portfolio = () => {
               <a
                 href="https://www.youtube.com/watch?v=SR4dFgdKUyI&t=7s"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   src="assets/ecommerce_dashboard.png"
@@ -23,8 +24,8 @@ const Portfolio = () => {
             <div className="project-text">
               <h3>ECOMMERCE - ADMIN DASHBOARD</h3>
               <p className="project-desc">
-                Ecommerce store allows users to create account, search, add to wishlist,
-                add to cart, checkout with Stripe, and view order
+                Ecommerce store allows users to create account, search, add to
+                wishlist, add to cart, checkout with Stripe, and view order
                 history. Dashboard allows admins to create & manage products,
                 track orders, and view sales report.
               </p>
@@ -38,17 +39,26 @@ const Portfolio = () => {
                 <p>RESTful API</p>
               </div>
               <div className="project-links multi-links">
-                <a href="https://github.com/phuc-mai/borcella_admin" target="_blank">
+                <a
+                  href="https://github.com/phuc-mai/borcella_admin"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Code Admin
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://github.com/phuc-mai/borcella_store" target="_blank">
+                <a
+                  href="https://github.com/phuc-mai/borcella_store"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Code Store
                   <i class="fa-brands fa-github"></i>
                 </a>
                 <a
                   href="https://www.youtube.com/watch?v=SR4dFgdKUyI&t=7s"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -74,13 +84,18 @@ const Portfolio = () => {
                 <p>Pusher</p>
               </div>
               <div className="project-links">
-                <a href="https://github.com/phuc-mai/skychat" target="_blank">
+                <a
+                  href="https://github.com/phuc-mai/skychat"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
                 <a
                   href="https://www.youtube.com/watch?v=2Zv8YYq1ymo&t=2s"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -91,6 +106,7 @@ const Portfolio = () => {
               <a
                 href="https://www.youtube.com/watch?v=2Zv8YYq1ymo&t=2s"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img src="assets/skychat.png" alt="chat app" />
               </a>
@@ -102,6 +118,7 @@ const Portfolio = () => {
               <a
                 href="https://www.youtube.com/watch?v=r8AWmr1K4hU&t=4928s"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img src="assets/filmhub.png" alt="movie website" />
               </a>
@@ -122,13 +139,18 @@ const Portfolio = () => {
                 <p>RESTful API</p>
               </div>
               <div className="project-links">
-                <a href="https://github.com/phuc-mai/filmhub" target="_blank">
+                <a
+                  href="https://github.com/phuc-mai/filmhub"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
                 <a
                   href="https://www.youtube.com/watch?v=r8AWmr1K4hU&t=4928s"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -154,13 +176,18 @@ const Portfolio = () => {
                 <p>Stripe</p>
               </div>
               <div className="project-links">
-                <a href="https://github.com/phuc-mai/artfulize" target="_blank">
+                <a
+                  href="https://github.com/phuc-mai/artfulize"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
                 <a
                   href="https://www.youtube.com/watch?v=PbGL_VhyZ0Q&t=5275s"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -171,6 +198,7 @@ const Portfolio = () => {
               <a
                 href="https://www.youtube.com/watch?v=PbGL_VhyZ0Q&t=5275s"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img src="assets/Artfulize.png" alt="art-marketplace" />
               </a>
@@ -182,6 +210,7 @@ const Portfolio = () => {
               <a
                 href="https://www.youtube.com/watch?v=yXSdYD_JHN4&t=9485s"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img src="assets/zingzone.png" alt="social media app" />
               </a>
@@ -203,13 +232,18 @@ const Portfolio = () => {
                 <p>Material UI</p>
               </div>
               <div className="project-links">
-                <a href="https://github.com/phuc-mai/zingzone" target="_blank">
+                <a
+                  href="https://github.com/phuc-mai/zingzone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
                 <a
                   href="https://www.youtube.com/watch?v=yXSdYD_JHN4&t=9485s"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -240,6 +274,7 @@ const Portfolio = () => {
                 <a
                   href="https://github.com/phuc-mai/Home-Heaven"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Code
                   <i class="fa-brands fa-github"></i>
@@ -247,6 +282,7 @@ const Portfolio = () => {
                 <a
                   href="https://www.youtube.com/watch?v=BLDFsvWf8zY&t=13828s"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -257,6 +293,7 @@ const Portfolio = () => {
               <a
                 href="https://www.youtube.com/watch?v=BLDFsvWf8zY&t=13828s"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img src="assets/Home Heaven.png" alt="property-app" />
               </a>
@@ -265,7 +302,11 @@ const Portfolio = () => {
 
           <div className="project">
             <div className="project-img">
-              <a href="https://motorbikerental.phucmai.com/" target="_blank">
+              <a
+                href="https://motorbikerental.phucmai.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src="assets/Motorbike Rental.png" alt="motor-rental" />
               </a>
             </div>
@@ -286,11 +327,16 @@ const Portfolio = () => {
                 <a
                   href="https://github.com/phuc-mai/Motorbike-Rental"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://motorbikerental.phucmai.com/" target="_blank">
+                <a
+                  href="https://motorbikerental.phucmai.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
@@ -312,11 +358,19 @@ const Portfolio = () => {
                 <p>Javascript</p>
               </div>
               <div className="project-links">
-                <a href="https://github.com/phuc-mai/fitfinity" target="_blank">
+                <a
+                  href="https://github.com/phuc-mai/fitfinity"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Code
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://fitfinity-five.vercel.app/" target="_blank">
+                <a
+                  href="https://fitfinity-five.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
@@ -324,7 +378,11 @@ const Portfolio = () => {
             </div>
 
             <div className="project-img">
-              <a href="https://fitfinity-five.vercel.app/" target="_blank">
+              <a
+                href="https://fitfinity-five.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src="assets/Fitfinity.png" alt="fitfinity-gym-center" />
               </a>
             </div>

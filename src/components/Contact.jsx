@@ -11,7 +11,7 @@ const Contact = () => {
         </p>
         <div className="contact-info">
           <div className="contact-details">
-            <img src="assets/email.png" />
+            <img src="assets/email.png" alt="email"/>
             <a href="mailto:mariamaihong1309@gmail.com">
               mariamaihong1309@gmail.com
             </a>
